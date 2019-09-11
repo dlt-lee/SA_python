@@ -3,11 +3,10 @@ def fibonacci(n):
     b = 1
     result = []
     while True:
-        future = a + b
-        if b == n:
+        a, b = b, a+b
+        if b >= n:
             break
-        a = b
-        b = future
-        print(future)
-        result.append(future)
+        result.append(b)
     return result
+
+print(fibonacci(1000))
