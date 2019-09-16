@@ -1,4 +1,5 @@
 def fibonacci(n):
+    n = int(n)
     a = 0
     b = 1
     result = []
@@ -9,4 +10,4 @@ def fibonacci(n):
         result.append(b)
     return result
 
-print(fibonacci(1000))
+print(fibonacci(input("Plese input the range:")))
