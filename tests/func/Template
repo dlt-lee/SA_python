@@ -1,0 +1,28 @@
+#import
+
+# Create "case name.txt“ to store fail/pass number:
+#file = open("Case_name.txt", "w")
+#=====================================test case name=======================================
+#Scenario…
+#What do you want to check in this case?
+#Given…
+#The precondition of test case
+#When…
+#What do you give the input?
+#Then…
+#What do you want to get?
+#If you get what you wanna then pass_num+1
+#If you don't get what you wanna then fail_num+1
+# checkout file named by "case name" to store relate information about fail cases
+
+
+
+
+
+
+#===========================================checkout result======================================
+#file.write("Fail:%s\n" % fail_num)
+#file.write("Pass:%s\n" % pass_num)
+#file.close()
+
+
